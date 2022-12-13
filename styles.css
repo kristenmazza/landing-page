@@ -32,6 +32,8 @@ body {
 .main  {
     display: flex;
     gap: 30px;
+    flex-wrap: wrap;
+
 }
 
 .header-links {
@@ -44,6 +46,12 @@ body {
 .top-image {
     align-self: center;
     width: 500px;
+    flex: 1;
+    flex-grow: 0;
+}
+
+.main-text {
+    flex: 1;
 }
 
 .logo {
